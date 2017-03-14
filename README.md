@@ -3,6 +3,8 @@ A calgary clinic waiting time optimizer.
 
 The latest API can be viewed in the App folder. Python and WWW folders are front/backend simulators designed in Python and PHP to simulate the calcuations required, before sending the data to the API. 
 
+NOTE: A valid Cloudant Database is required for this project, please contact me for sample data.
+
 # Deployment 
 Simply replace all the constants with your Google Maps, Cloudant, and Watson Tradeoff Analytics keys. Upload the two JS files to separate Node JS applications on IBM Bluemix, then update their manifest to reflect the manifest file. Set up deployment pipelines, version control, and team management how you would like it to be configured, and deploy the application. 
 
