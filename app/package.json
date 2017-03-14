@@ -1,0 +1,22 @@
+{
+	"name": "NodejsApp",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node app.js"
+		},
+	"dependencies": {
+		"express": "4.13.x",
+		"cfenv": "1.0.x",
+		"cloudant": "",
+		"watson-developer-cloud": "^1.9.4",
+		"date-holidays":"0.1.5",
+		"body-parser":"1.15.2",
+		"auth-header":"0.3.1",
+		"bluemix-autoscaling-agent": "*"
+	},
+	"repository": {},
+	"engines": {
+		"node": "4.x"
+	} 
+}
